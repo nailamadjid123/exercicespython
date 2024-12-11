@@ -13,11 +13,11 @@ def magical_cities():
     sorted_cities = sorted(cities.items(), key=lambda x: x[1], reverse=True)
 
     
-    
+
     print("\nCities and their populations (sorted by population):")
     for city, population in sorted_cities:
         print(f"{city}: {population:,} citizens")
 
 
-# Run the function
+
 magical_cities()
